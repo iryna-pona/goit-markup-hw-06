@@ -49,9 +49,6 @@
   background-color: #404bbf;
 }
 
-
-
-
 /* features */
 
 .studio {
@@ -451,12 +448,12 @@
   top: 24px;
   right: 24px;
   padding: 0;
-  
+
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -596,4 +593,26 @@
 
 .check-text-axent {
   color: #4d5ae5;
+}
+
+/* team */
+
+.team {
+  background: #f4f4fd;
+  padding: 96px 12px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.team-item {
+  background: #fff;
+  width: 100%;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
