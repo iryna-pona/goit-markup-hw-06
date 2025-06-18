@@ -742,7 +742,7 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop hidden">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -809,19 +809,23 @@
               id="user-privacy"
               value="true"
             />
-            <label for="user-privacy" class="check-text"
-              ><span class="check-element"
-                ><svg class="check-icon" width="10" height="8">
+            <label for="user-privacy" class="check-text">
+              <span class="check-element">
+                <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
+              <span>
               I accept the terms and conditions of the
-              <a href="" class="check-text-axent">Privacy Policy</a></label
-            >
+              <a href="" class="check-text-axent">Privacy Policy</a>
+              </span>
+            </label>
           </div>
           <button type="submit" class="hero-button modal-button">Send</button>
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
